@@ -1,0 +1,33 @@
+body{
+    background-color: #24353F;
+}
+.divv{
+    background-color: #24353F;
+    box-shadow: rgb(0, 0, 0) -5px 2px 54px -9px;
+    border: 10px solid transparent;
+    width: 60%;
+}
+h1{
+    color: #17A2B8;
+}
+input{
+    background-color: transparent;
+    border: 1px white solid ;
+     color: #ffffff;
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom:15px ;
+    padding: 5px;
+}
+.btnn{
+    background-color: transparent;
+    border: 1px #17A2B8 solid ;
+    color:#17A2B8;
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom:15px ;
+}
+.btnn:hover{
+ background-color:#17A2B8 ;   
+ color: white;
+}

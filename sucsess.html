@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Login</title>
+</head>
+<body>
+    <div>
+       <div class=" row-cols-lg-2">
+        <a href="" class="mt-3 d-inline-block navbar-brand text-light m-5 h2">SMART LOGIN</a>
+        <a href="./index.html"> <button class=" w-25 btn  border-warning text-light  " type="button">Log out</button>
+    </a>
+
+    </div>
+      
+    </div>
+    
+    <div class=" m-auto p-5 mt-5 my-4 text-center divv " >
+       
+ 
+        <h1 id="susssionName" >
+            <script>
+                var session = localStorage.getItem("sessionUsername");
+                document.getElementById('susssionName').innerHTML = `<h1 > welcom ${session}</h1>`  ;
+
+            </script>  
+            </h1>
+
+         
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="./js/bootstrap.bundle.min.js"></script>
+<script src="./js/index.js"></script>
+</body>
+</html>
