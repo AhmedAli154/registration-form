@@ -57,5 +57,5 @@ function checkInput(){
 }
 
 }
- 
+ bbtn.addEventListener("click",checkInput)
 
