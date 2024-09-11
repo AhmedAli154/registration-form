@@ -2,8 +2,8 @@ var nameInput = document.getElementById("nainput");
 var emailInput = document.getElementById("eminput");
 var passInput = document.getElementById("painput");
 var bbtnn= document.getElementById("btn2")
-
 function isLoginEmpty() {
+
   if (emailInput.value == "" || passInput.value == ""||nameInput.value=="") {
       return false
   } else {
@@ -19,6 +19,7 @@ if(localStorage.getItem("nname") !=null){
 
   }
  
+ 
 function check(email) {
   for (i = 0; i < add.length; i++) {
      
@@ -32,7 +33,11 @@ function check(email) {
   return 5;
 }
 
+
+
 function AddBookmark() {
+
+
 
 if( isLoginEmpty()==false ){
   document.getElementById('error2').innerHTML = '<span class="text-danger p-3">All inputs is required</span>'; 
@@ -62,4 +67,36 @@ if( isLoginEmpty()==false ){
 }
 
 bbtnn.addEventListener("click",AddBookmark)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
