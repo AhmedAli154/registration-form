@@ -2,7 +2,7 @@
 var emailinputt =document.getElementById("input1")  ;
  var passwardinputt =document.getElementById("input2") ;
 var printt2 = JSON.parse(localStorage.getItem("nname"));
-  var bbtn =document.getElementById("btn");
+ var bbtn =document.getElementById("btn");
 
 function isLoginEmpty() {
 
@@ -52,11 +52,9 @@ function checkInput(){
       }
  
     
-    
-
-
 }
 
 }
- bbtn.addEventListener("click",checkInput)
+ 
 
+bbtn.addEventListener("click",checkInput)
