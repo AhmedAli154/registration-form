@@ -95,19 +95,6 @@ if( isLoginEmpty()==false ){
 //-------------------------index
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 //   function validation(){
 
 //  if(emailinputt.match(pattern)){
@@ -122,17 +109,6 @@ if( isLoginEmpty()==false ){
 //   }
 
 
-
-
-
-
-
-
-
-
-
-
-
 //  function checkInput() {  
 //   var inputValue = {
 //     inputEmail:emailinputt.value,
@@ -145,10 +121,6 @@ if( isLoginEmpty()==false ){
 //       window.alert("unavilable email");
 //       }
  
-    
-
-
-
 //    for (i = 0; i < printt2.length; i++) {
 
 //   if (inputValue.trim() === ''|| inputValue2.trim()==='') {
@@ -163,4 +135,5 @@ if( isLoginEmpty()==false ){
 //   }
 // }
 
+bbtnn.addEventListener("click",AddBookmark)
 
