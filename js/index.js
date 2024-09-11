@@ -2,7 +2,8 @@
 var emailinputt =document.getElementById("input1")  ;
  var passwardinputt =document.getElementById("input2") ;
 var printt2 = JSON.parse(localStorage.getItem("nname"));
- 
+  var bbtn =document.getElementById("btn");
+
 function isLoginEmpty() {
 
   if (emailinputt.value == "" || passwardinputt.value == "") {
