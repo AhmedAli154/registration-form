@@ -3,7 +3,6 @@ var emailInput = document.getElementById("eminput");
 var passInput = document.getElementById("painput");
 
 function isLoginEmpty() {
-
   if (emailInput.value == "" || passInput.value == ""||nameInput.value=="") {
       return false
   } else {
@@ -19,7 +18,6 @@ if(localStorage.getItem("nname") !=null){
 
   }
  
- 
 function check(email) {
   for (i = 0; i < add.length; i++) {
      
@@ -33,11 +31,7 @@ function check(email) {
   return 5;
 }
 
-
-
 function AddBookmark() {
-
-
 
 if( isLoginEmpty()==false ){
   document.getElementById('error2').innerHTML = '<span class="text-danger p-3">All inputs is required</span>'; 
@@ -64,76 +58,7 @@ if( isLoginEmpty()==false ){
 
 }
 
-
-
-
-
- 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//-------------------------index
-
-
-//   function validation(){
-
-//  if(emailinputt.match(pattern)){
-//     text.innerHTML="your email is valid";
-//   text.style.color="#00ff00";
-//   }else{
-//     text.innerHTML="your email is invalid";
-//   text.style.color="#ff0000";
-
-//  }
-
-//   }
-
-
-//  function checkInput() {  
-//   var inputValue = {
-//     inputEmail:emailinputt.value,
-//     inputPaas: passwardinputt.value, };
-  
-//      let y = check(inputValue.inputEmail);
-//      if (y == 9) {
-//       window.alert("avilable email");
-//      } else if (y == 5) {
-//       window.alert("unavilable email");
-//       }
- 
-//    for (i = 0; i < printt2.length; i++) {
-
-//   if (inputValue.trim() === ''|| inputValue2.trim()==='') {
-//      alert('there is input is empty.');
-//  } else if (inputValue === printt2[i].email&&inputValue2===printt2[i].pass){
-//      alert('sucsses.');
-//      console.log(printt2);
- 
-//    } else  {
-//     alert('wrong email');
-//    }
-//   }
-// }
 
 bbtnn.addEventListener("click",AddBookmark)
 
