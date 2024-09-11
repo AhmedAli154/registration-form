@@ -1,6 +1,7 @@
 var nameInput = document.getElementById("nainput");
 var emailInput = document.getElementById("eminput");
 var passInput = document.getElementById("painput");
+var bbtnn= document.getElementById("btn2")
 
 function isLoginEmpty() {
   if (emailInput.value == "" || passInput.value == ""||nameInput.value=="") {
